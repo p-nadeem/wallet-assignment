@@ -1,0 +1,55 @@
+.dialogTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 600;
+}
+.errorMsg {
+  color: red;
+}
+.modalContent {
+  width: 444px;
+}
+.modalFooterContainer {
+  width: 50%;
+  padding: 4px;
+}
+.footerButton {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  text-transform: none !important;
+}
+.cancelButton {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  text-transform: none !important;
+  background-color: #e4e7ed;
+  color: black;
+}
+.disconnectButton {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  text-transform: none !important;
+  margin: 4px;
+  border-radius: 6px;
+}
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 4px 0px;
+  padding: 6px 14px;
+  font-weight: 500;
+}
+.walletDetails {
+  display: flex;
+  justify-content: center;
+  color: #afafaf;
+  margin-top: 12px;
+  cursor: pointer;
+}
